@@ -223,7 +223,7 @@ import numpy
 ```
 
 ```python
-numpy.loadtxt(fname='data/inflammation-01.csv', delimiter=',')
+numpy.loadtxt(fname='../data/inflammation-01.csv', delimiter=',')
 
 ```
 
@@ -231,7 +231,7 @@ numpy.loadtxt(fname='data/inflammation-01.csv', delimiter=',')
 - assign the data to a variable `data`
 
 ```python
-data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
+data = numpy.loadtxt(fname='../data/inflammation-01.csv', delimiter=',')
 ```
 - explore the data 
 
@@ -345,7 +345,7 @@ image = plt.imshow(data)
 plt.show()
 ```
 
-- make sure `data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')`
+- make sure `data = numpy.loadtxt(fname='../data/inflammation-01.csv', delimiter=',')`
 
 - Visualizing the average values across all patients per day
 
