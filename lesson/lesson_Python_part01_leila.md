@@ -334,7 +334,7 @@ print(numpy.mean(data, axis=1))
 - Use numpy.mean(array), numpy.amax(array), and numpy.amin(array) to calculate simple statistics.
 - Use numpy.mean(array, axis=0) or numpy.mean(array, axis=1) to calculate statistics across the specified axis.
 
-## Visualizing Tabular Data 
+<!-- ## Visualizing Tabular Data 
 
 - How can I visualize tabular data in Python?
 
@@ -361,5 +361,5 @@ ave_plot = plt.plot(ave_inflammation)
 ### Key points 
 
 - Use the pyplot module from the matplotlib library for creating simple visualizations.
-
+ -->
 
