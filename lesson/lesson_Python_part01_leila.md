@@ -25,10 +25,7 @@ colorlinks: true
 
 # Slides Intro 
 
-# Open Jupyter lab and move to the swc-python folder 
-
-- Through Anaconda navigator
-- JupyterLab
+  - **Presentation slides** 
 
 # Lesson start 
 
@@ -125,7 +122,8 @@ patient_id #this variable describes the id of each patient
 
 
 
-- go to slides and mention the key points of this part 
+**go to slides and mention the key points of this part** (1)
+
 ### Key points 
 
 - Basic data types in Python include integers, strings, and floating-point numbers.
@@ -163,6 +161,7 @@ veg = [['lettuce', 'tomato', 'peppers' ],
      [ 'cilantro', 'zucchini']]
 ```
 - Play with the indexes to access different items of the list of lists 
+
 ```python
 veg[0], veg[-2:]
 ```
@@ -198,7 +197,7 @@ print('odds after removing the first element:', odds)
 print('removed_element:', removed_element)
 ```
 
-- go to slides to show the first exercise and keypoints 
+**go to slides to show the first exercise and keypoints** (3)(exercise+solution+keypoints)
 
 ### Keypoints
 
@@ -212,15 +211,15 @@ print('removed_element:', removed_element)
 
 - How can I process tabular data files in Python?
 
-### Loading data 
-
-- Go to slides to present the case of today 
+**Go to slides to present the case of today** (1)
 
 #### Importing useful libraries 
 
 ```python
 import numpy
 ```
+
+#### Loading data
 
 ```python
 numpy.loadtxt(fname='../data/inflammation-01.csv', delimiter=',')
@@ -247,7 +246,7 @@ print(data.shape)
 
 - extracting a single number from the data array 
 
-- go to slides to see how python arrays are handled 
+**go to slides to see how python arrays are handled** (1)
 
 ```python
 print('first value in data:', data[0, 0])
@@ -300,7 +299,7 @@ print('maximum inflammation for patient 0:', numpy.amax(patient_0))
 
 - What if we need the maximum inflammation for each patient over all days (as in the next diagram on the left) or the average for each day (as in the diagram on the right)? As the diagram below shows, we want to perform the operation across an axis:
 
-- go to figure from the slides presentation 
+**go to figure from the slides presentation** (1)
 
 - To support this functionality, most array functions allow us to specify the axis we want to work on. If we ask for the average across axis 0 (rows in our 2D example), we get:
 
@@ -320,7 +319,7 @@ print(numpy.mean(data, axis=0).shape)
 print(numpy.mean(data, axis=1))
 ```
 
-- go to slides for the exercise and key points of this part 
+**go to slides for the exercise and key points of this part** (3)(exercise+solution+keypoints)
 
 ### Key points 
 
